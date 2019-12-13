@@ -2,7 +2,7 @@
 
 namespace BasicApp\ComingSoonTheme;
 
-abstract class ThemeAbstract extends \PhpTheme\CleanBlogTheme\Theme implements \BasicApp\System\ThemeInterface
+abstract class ThemeAbstract extends \PhpTheme\ComingSoonTheme\Theme
 {
 
     public $baseUrl = '/themes/startbootstrap-coming-soon';
