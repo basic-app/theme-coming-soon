@@ -23,7 +23,7 @@ if (class_exists(SystemEvents::class))
 
         CliHelper::delete($themeDir . '.zip');
 
-        $dirs = ['vendor', 'js', 'img', 'css'];
+        $dirs = ['vendor', 'js', 'img', 'css', 'mp4'];
 
         foreach($dirs as $dir)
         {
