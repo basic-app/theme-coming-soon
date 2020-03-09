@@ -2,9 +2,9 @@
 
 namespace BasicApp\Themes\ComingSoon;
 
-use PhpTheme\Core\HtmlHelper;
+use BasicApp\Helpers\HtmlHelper;
 
-class Theme extends \PhpTheme\ComingSoonTheme\Theme
+class Theme extends \PhpTheme\Themes\ComingSoon\Theme
 {
 
     public $baseUrl = '/themes/startbootstrap-coming-soon';

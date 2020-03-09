@@ -6,7 +6,7 @@
         }
     },
     "require": {
-        "phptheme/core": "*",
+        "basic-app/core": "*",
         "phptheme/theme-coming-soon": "*"
     }
 }
