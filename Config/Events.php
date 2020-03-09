@@ -1,6 +1,7 @@
 <?php
 
 use BasicApp\System\SystemEvents;
+use BasicApp\Site\SiteEvents;
 use BasicApp\Helpers\CliHelper;
 
 if (class_exists(SystemEvents::class))
@@ -42,11 +43,11 @@ if (class_exists(SystemEvents::class))
     });
 }
 
-if (class_exists(SystemEvents::class))
+if (class_exists(SiteEvents::class))
 {
-    SystemEvents::onThemes(function($event)
+    SiteEvents::onThemes(function($event)
     {
-        $class = BasicApp\ComingSoonTheme\Theme::class;
+        $class = BasicApp\Themes\ComingSoon\SiteTheme::class;
 
         $event->result[$class] = 'Start Bootstrap - Coming Soon';
     });

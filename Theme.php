@@ -1,11 +1,13 @@
 <?php
 
-namespace BasicApp\ComingSoonTheme;
+namespace BasicApp\Themes\ComingSoon;
 
-use PhpTheme\Html\HtmlHelper;
+use PhpTheme\Core\HtmlHelper;
 
-class Theme extends ThemeAbstract
+class Theme extends \PhpTheme\ComingSoonTheme\Theme
 {
+
+    public $baseUrl = '/themes/startbootstrap-coming-soon';
 
     public function __construct()
     {

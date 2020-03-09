@@ -2,10 +2,11 @@
     "name": "basic-app/theme-coming-soon",
     "autoload": {
         "psr-4": {
-            "BasicApp\\ComingSoonTheme\\": ""
+            "BasicApp\\Themes\\ComingSoon\\": ""
         }
     },
     "require": {
+        "phptheme/core": "*",
         "phptheme/theme-coming-soon": "*"
     }
 }
